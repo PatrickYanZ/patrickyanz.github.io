@@ -1,0 +1,23 @@
+# jemdoc: menu{MENU}{research.html}, notime
+# jemdoc: addcss{../../jemdoc.css}
+= Joint Optimization of V2I communication and Autonomous Driving on HighwayEnv
+
+Jointly optimizing AV motion dynamics and wireless connectivity is critical to balancing the trade-offs between communication handovers and  speed of AVs  in order to achieve the following
+- Receive real-time traffic information from the wireless network
+- Access timely navigation data
+- Communicate effectively with surrounding vehicles
+- Predict dangerous situations and make informed decisions
+
+\[[https://patrickyanz.github.io/posters/vts-student-project-zijiang-final-3.pdf Poster]\] 
+\[[https://youtu.be/EjZOxzjk9SM 5 minutes Video]\] 
+\[[envelope-videos.html Illustration Demo]\]
+
+{{<img class="center" style="width: 30em;" src="./av-rf-thz-update.png"></img>}}
+
+
+
+== Related publications
+- ***Zijiang Yan***, Hina Tabassum. [https://ieeexplore.ieee.org/abstract/document/10001396 Reinforcement Learning for Joint V2I Network Selection and Autonomous Driving Policies]. IEEE Global Communications Conference (GLOBECOM'22), 2022. 
+- ***Zijiang Yan***, Hina Tabassum. [https://arxiv.org/abs/2405.11331 Generalized Multi-Objective Reinforcement Learning with Envelope Updates in URLLC-enabled Vehicular Networks] (Under Review), 2024. 
+- ***Zijiang Yan***, Hao Zhou, Hina Tabassum, Xue Liu. [https://arxiv.org/abs/2410.08854 Hybrid LLM-DDQN based Joint Optimization of V2I Communication and Autonomous Driving].  (Under Review), 2024.
+
