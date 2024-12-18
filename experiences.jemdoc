@@ -1,0 +1,25 @@
+# jemdoc: menu{MENU}{experiences.html}{}, notime
+= Experiences
+
+== Bell Media, Cloud Engineer +Toronto, Canada, Oct 2021 to present+
+- Strengthened CI/CD pipeline stability by integrating GitLab and Jenkins, improving infra performance.
+- Led the Lighthouse project with ***Ansible***, enhancing system reliability and visibility across teams.
+- Contributed to the CRNA DNS project with ***Terraform***, ensuring robust and secure connectivity.
+- Migrated Satellite systems to Bell’s Centralized Satellite platform, boosting scalability and efficiency.
+- Transitioned GitLab runners to AWS shared runners and maintained Jenkins pipelines for the Mobile App team, improving build efficiency by 27%.
+
+== York University, Machine Learning Researcher +Toronto, Canada，Mar 2021 to present+
+- Developed a reinforcement learning framework to optimize autonomous driving and network policies, enhancing decision-making efficiency.
+- Designed a quantum-enhanced user association model for handoff-aware vehicular networks, applicable to both autonomous vehicles and drones.
+- Created a simulation environment to integrate multi-agent communication and autonomous driving policies, fostering robust collaboration.
+- Modeled vehicle-to-infrastructure (V2I) networks to maximize data rates while minimizing collisions and communication disruptions.
+
+== Bell Canada, Software Developer Intern +Toronto, Canada，May 2021 to Aug 2021+
+- Utilized machine learning and deep learning techniques on AWS to analyze customer data, uncovering trends and improving marketing strategies.
+- Designed and implemented predictive models for customer churn and lifetime value, driving data-informed decision-making.
+
+= Professional Activities
+
+- *Conference Session Chair*: GLOBECOM'23
+- *Technical Program Reviewer*: ICC, GLOBECOM, WCNC, VTC, DySPAN
+- *Journal Reviewer*: TWC, TCOM, TCCN, OJ-COMS, COMML, IOTM.
