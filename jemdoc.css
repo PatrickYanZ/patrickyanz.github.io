@@ -1,52 +1,176 @@
-/* Default css file for jemdoc. */
-html { 
-	height:100%; 
-	width:100%;
+/* Css for the TABLE in research page */
+#TABLE_HOME_HEAD {
+	border-width: 0px;
+	border-style: none;
+	width: 100%;
 }
+
+#TABLE_HOME_HEAD td { 
+	border-width: 0px;
+	padding-left: 0px;
+	border-style: none;	
+	text-align: left;
+	vertical-align: top;
+	width: 100%;
+}
+
+#TABLE_HOME_HEAD tbody tr td:nth-child(1) {
+	width: 100%;
+}
+/* Specific css for tables in members page */
+#TABLE_MEMBERS {
+	border-color: gray;
+	border-width: 1px;
+}
+
+#TABLE_MEMBERS tr.r1 { 
+	font-weight: bold; 
+	background-color: #82a0d1;
+}
+#TABLE_MEMBERS td { 
+    text-align: left;
+}
+
+#TABLE_MEMBERS tbody tr td:nth-child(1) {
+	width: 15em;
+	min-width: 15em;
+	max-width: 15em;
+	word-break: break-all;
+}
+
+#TABLE_MEMBERS tbody tr td:nth-child(2) {
+	width:14em;
+	min-width: 14em;
+	max-width: 14em;
+	word-break: break-all;
+}
+
+#TABLE_MEMBERS tbody tr td:nth-child(3) {
+	min-width: 8em;
+	word-break: break-all;
+	/*font-family: 'Times New Roman', Times, serif;*/
+}
+
+
+/* Css for the TABLE in contacts page */
+#TABLE_CONTACTS {
+	border-width: 0px;
+	border-style: none;
+}
+
+#TABLE_CONTACTS td { 
+	border-width: 0px;
+	border-style: none;	
+	text-align: left;
+	vertical-align: top;
+}
+
+/* Css for the TABLE in research page */
+#TABLE_RESEARCH {
+	border-width: 0px;
+	border-style: none;
+}
+
+#TABLE_RESEARCH td { 
+	border-width: 0px;
+	border-style: none;	
+	text-align: justify;
+	vertical-align: top;
+}
+
+#TABLE_RESEARCH tbody tr td:nth-child(1) {
+	width: 100%;
+}
+
+/* Css for the popup in news page */
+.popup {
+	position: absolute;
+	width: 50%;
+	height: 20%;
+	z-index: 15;
+	top: 25%;
+	left: 25%;
+	background: transparent;
+  }
+  
+  /* The actual popup */
+  .popup .popuptext {
+	visibility: hidden;
+	background-color: #555;
+	color: #fff;
+	text-align: left;
+	border-radius: 4px;
+	padding: 8px 8px;
+	z-index: 1;
+  }
+  
+  /* Popup arrow */
+  .popup .popuptext::after {
+	position: absolute;
+	border-width: 5px;
+	border-style: solid;
+  }
+  
+  /* Toggle this class - hide and show the popup */
+  .popup .show {
+	visibility: visible;
+	-webkit-animation: fadeIn 1s;
+	animation: fadeIn 1s;
+  }
+  
+  /* Add animation (fade in the popup) */
+  @-webkit-keyframes fadeIn {
+	from {opacity: 0;} 
+	to {opacity: 1;}
+  }
+  
+  @keyframes fadeIn {
+	from {opacity: 0;}
+	to {opacity:1 ;}
+  }
+
+
+/* Default css file for jemdoc. */
 table#tlayout {
-    	border: none;
-    	border-collapse: separate;
-    	background: #D6EAF8;
-   	height: 100%;
-   	width: 100%;
+    border: none;
+    border-collapse: separate;
+	background: white;
+	width: 100%;
 }
 
 body {
-	background: #D6EAF8；
+	background: white;
 	font-family: Georgia, serif;
 	padding-bottom: 8px;
 	margin: 0;
-   	height: 100%;
-   	width: 100%;
 }
 
 #layout-menu {
 	background: #f6f6f6;
 	border: 1px solid #dddddd;
 	padding-top: 0.5em;
-	padding-left: 10px;
-	padding-right: 28px;
-	font-size: 100%;
-	width: 15%;
+	padding-left: 8px;
+	padding-right: 8px;
+	font-size: 1.0em;
+	width: 130px;
 	white-space: nowrap;
-	text-align: left;
-	vertical-align: top;
-	line-height: 150%;
+    text-align: left;
+    vertical-align: top;
 }
 
 #layout-menu td {
 	background: #f4f4f4;
-    	vertical-align: top;
+    vertical-align: top;
 }
 
 #layout-content {
 	padding-top: 0.0em;
 	padding-left: 1.0em;
 	padding-right: 1.0em;
-	border: none;
-    	background: white;
-    	text-align: left;
-    	vertical-align: top;
+    border: none;
+    background: white;
+    text-align: left;
+    vertical-align: top;
 }
 
 #layout-menu a {
@@ -93,7 +217,6 @@ div.menu-category {
 }
 
 div.menu-item {
-	margin-top: 6px;
 	padding-left: 16px;
 	text-indent: -16px;
 }
@@ -374,3 +497,14 @@ table.imgtable, table.imgtable td {
     border: none;
     text-align: left;
 }
+
+/* extra y MK */
+
+.pointer {cursor: pointer;}
+.float {float: left;}
+.padright10px {padding-right: 10px;}
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+  }
