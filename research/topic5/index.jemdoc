@@ -1,0 +1,25 @@
+# jemdoc: menu{MENU}{research.html}, notime
+# jemdoc: addcss{../../jemdoc.css}
+= Latent Diffusion Modeled Based Video Streaming on Semantic Communications 
+
+We presented a novel Semantic Communication (SemCom) framework for real-time adaptive-bitrate video streaming by integrating Latent Diffusion Models (LDMs) within the FFmpeg techniques.
+
+The following are a few problems that we are interested to address:
+
+- Senmatic Error through Noisy Wireless Channel
+- Adapted Bitrate Streaming 
+- High Bandwidth and Storage Comsumption on Content Delivery Network (CDN)
+
+## {{<img class="center" style="width: 30em;" src="./abr_nn.png"></img>}}
+## {{<img class="center" style="width: 30em;" src="./Framework.png"></img>}}
+
+{{<img class="padright10px" style="width: 40em;" src="./abr_nn.png"></img>}}
+{{<img class="padright10px" style="width: 40em;" src="./Framework.png"></img>}}
+
+== Related publications
+
+- *Zijiang Yan*\*, Jianhua Pei\*, Hongda Wu, Hina Tabassum, Ping Wang,[https://arxiv.org/abs/2502.05695 Semantic-Aware Adaptive Video Streaming Using Latent Diffusion Models for Wireless Networks].
+IEEE Wireless Communications, Jul. 2025. 
+
+- *Zijiang Yan*\*, Yixiang Huang\*, Jianhua Pei, Hina Tabassum, Luca Chiaraviglio, [https://arxiv.org/abs/2512.15067 EMFusion: Conditional Diffusion Framework for Trustworthy Frequency Selective EMF Forecasting in Wireless Networks].  
+Under Review, Dec. 2025.
