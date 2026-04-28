@@ -1,11 +1,12 @@
-DOCS=index
+DOCS=$(patsubst %.jemdoc,%.html,awards.jemdoc experiences.jemdoc index.jemdoc publications.jemdoc research.jemdoc \
+	$(wildcard research/*/index.jemdoc))
 
 all: $(DOCS)
 
-%: %.jemdoc
-    python jemdoc.py $<
+%.html: %.jemdoc
+	python jemdoc.py $<
 
 clean:
-    -rm -f *.html
+	-rm -f *.html
 
 .PHONY: all clean
