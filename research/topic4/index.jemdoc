@@ -14,6 +14,8 @@ To achieve these goals, we formulate the problem as a multi-objective Markov dec
 {{<img class="center" style="width: 30em;" src="./icc24_illustration-Page.jpg"></img>}}
 
 == Related publications
+- *Zijiang Yan*, Hina Tabassum, Ping Wang. [Quantum-Enhanced Adaptive Conformal Prediction for Reliable Wireless VoIP QoS Forecasting]. Sep. 2026. 
+
 - *Zijiang Yan*, Hao Zhou, Jianhua Pei, Aryan Kaushik, Hina Tabassum, Ping Wang. [https://arxiv.org/abs/2501.08418 CVaR-Based Variational Quantum Optimization for User Association in Handoff-Aware Vehicular Networks]. IEEE International Conference on Communications (ICC'25), 2025.
 
 - *Zijiang Yan*, Ramsundar Tanikella, Hina Tabassum. [https://doi.org/10.1109/INFOCOMWKSHPS61880.2024.10620888 Optimizing Vehicular Networks with Variational Quantum Circuits-based Reinforcement Learning]. IEEE International Conference on Computer Communications (INFOCOM'24 Poster), 2024.
